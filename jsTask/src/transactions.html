@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/styles/index.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="section">
+      <div class="transactions">
+        <div class="transactions__header">
+          <form class="search"></form>
+          <h1>لیست تراکنش ها</h1>
+          <i class="fa fa-search" aria-hidden="true"></i>
+          <input
+            class="transactions__search-input"
+            type="text"
+            placeholder="جستجو تراکنش..."
+          />
+        </div>
+        <div class="table-container">
+          <table class="table">
+            <thead class="table__header">
+              <h2>تراکنش های شما</h2>
+              <tr>
+                <th>ردیف</th>
+                <th>نوع تراکنش</th>
+                <th class="table__header-price">
+                  <span>مبلغ</span>
+                  <img src="/assets/icons/chevron.png" />
+                </th>
+                <th>شماره پیگیری</th>
+                <th class="table__header-date">
+                  <span>تاریخ تراکنش</span>
+                  <img src="/assets/icons/search.png" />
+                </th>
+              </tr>
+              <tr class="table__row">
+                <td>1</td>
+                <td>افزایش اعتبار</td>
+                <td>100,0000</td>
+                <td>1234454</td>
+                <td>1399/04/28 ساعت13:44</td>
+              </tr>
+              <tr class="table__row">
+                <td>2</td>
+                <td>افزایش اعتبار</td>
+                <td>200,0000</td>
+                <td>1234454</td>
+                <td>1399/04/28 ساعت13:44</td>
+              </tr>
+              <tr class="table__row">
+                <td>3</td>
+                <td>افزایش اعتبار</td>
+                <td>500,0000</td>
+                <td>1234454</td>
+                <td>1399/04/28 ساعت13:44</td>
+              </tr>
+            </thead>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
